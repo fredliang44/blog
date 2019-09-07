@@ -1,0 +1,89 @@
+baseURL = "https://blog.fredliang.cn"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "Fred's Blog"                # site title
+theme = "refine"
+hasCJKLanguage = true                # has chinese/japanese/korean
+summaryLength = 100
+paginate = 8                         # shows the number of articles
+enableEmoji = true
+googleAnalytics = ""                 # your google analytics id
+disqusShortname = ""                 # your discuss shortname
+enableGitInfo = true
+enableRobotsTXT = true
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
+[author]                             # essential
+  name = "Fred Liang"
+
+[blackfriday]
+  smartypants = true
+  angledQuotes = true
+  extensions = ["hardLineBreak", "autolink"]
+  hrefTargetBlank = true
+
+[[menu.main]]                        # config your menu
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Archive"
+  weight = 20
+  identifier = "archive"
+  url = "/posts/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "About"
+  weight = 40
+  identifier = "about"
+  url = "/about/"
+
+[params]
+  # mathjax
+  enableMathJax = true                                                 # enable mathjax  
+  enableSummary = true                                                 # display the article summary
+
+  description = "Thoughts, ideas and notes"
+
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[params.valine]
+  enable = true
+  appId = "W4URiS50m0ueDJH2fKY3xWuX-gzGzoHsz"
+  appKey = "fed1FiV2R9WaPprReHtKnNR6"
+  placeholder = "ヾﾉ≧∀≦)o来啊，快活啊!"
+  visitor = true
+
+[params.fathom]
+  enable = true
+  hostname = "fathom.fredliang.cn"  
+  trackerID  = "GQTKW"
+
+[params.beian]
+  text = "京ICP备16033945号"
+
+[social]
+  github = "https://www.github.com/fredliang44"
+  facebook = "https://www.facebook.com/profile.php?id=100015539800123"
+  wechat = "https://storage.fredliang.cn/Wechat-QRCode.jpeg"
+  linkedin = "https://www.linkedin.com/in/liangzhibo/"
+
+
+
+[outputs]
+  home = [ "HTML", "RSS" ]
+  section = [ "HTML", "RSS" ]
+  taxonomy = [ "HTML", "RSS" ]
+  taxonomyTerm = [ "HTML", "RSS" ]
+
+[outputFormats]
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed"

@@ -1,0 +1,175 @@
++++
+author = "Fred Liang"
+categories = ["Python", "Technology"]
+date = 2018-01-01T08:40:03Z
+description = ""
+draft = false
+image = "https://statics.fredliang.cn/photo-1477244075012-5cc28286e465?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=650281f5f6da101b6954a53645bf6501"
+slug = "numpy"
+tags = ["Python", "Technology"]
+title = "Numpy"
+
++++
+
+## 基础
+
+### 数据
+name | infer | meaning
+----|------|---
+axis | 轴  | 保存数据的维度
+rank | 秩 | 轴的数量
+
+### ndarray object attributes
+
+attributes | indications
+----|----
+.ndim | 秩，轴的数量
+.shape | ndarray对象的尺度，对于矩阵是m行n列
+.size | ndarray对象元素的个数，相当于.shape的m*n的值
+.dtype | ndarray对象的元素类型
+.itemsize | ndarray中每个对象元素的大小,以字节为单位
+
+### ndarray object subjects
+
+data form | inidications
+----|----
+bool|布尔类型，**True** or **False**
+intc|与C语言中的int类型一致，一般是int32或者int64
+intp|用于索引的整数，与C语言中的ssize_t一致，int32或int64
+int8|字节长度整数，取值[-128,127]
+int16|16位字节长度整数，取值[-32678,32767]
+int32|32位字节长度整数，取值[-2^31, 2^32 -1]
+int64|64 位字节长度整数，取值[-2^63, 2^63 -1]
+uint8|8位无符号整数，取值[0,255]
+uint16|16位无符号整数，取值[0,65535]
+uint32|32位无符号整数，取值[0,2^32 -1]
+uint64|64位无符号整数，取值[0,2^64 -1]
+float16|16位半精度浮点数：1符号位，5位指数，10位尾数
+float32|32位半精度浮点数：1符号位，8位指数，23位尾数
+float64|64位半精度浮点数：1符号位，11位指数，52位尾数
+compex64|复数类型，实部和虚部都是32位精度浮点数
+compex128|复数类型，实部和虚部都是64位精度浮点数
+
+## numpy 创建数组
+函数|说明|addition
+----|----|---
+np.arange(n)|类似range () 的函数,返回ndarray类型，元素从0到n-1
+np.ones(shape)|根据 shape 生成的一个全1数组，shape 是元组的类型|dtype=np.int32定义元素类型
+np.zeros(shape)|根据 shape 生成的一个全0数组，shape 是元组的类型
+np.full(shape,value)|根据 shape 生成的一个数组，每个元素都是 val
+np.eye(n)|创建一个n*n正方形单位矩阵，对角线为1，其余为0
+np.one_like(a)|根据 a 生成的一个全1数组
+np.zeros_like(a)|根据 a 生成的一个全0数组
+np.full_like(a,value)|根据 a 生成的一个数组，每个元素都是 val
+np.linspace()|根据起止数据等间距地填充数据，形成数组|endpoint=False
+np.concatenate()|将两个或多个数组合并成一个新的数组
+
+### 数组维度变换
+
+方法|说明
+----|----
+.reshape(shape)|不改变数组元素，返回一个 shape 形状的数组，原数组不变
+.resize(shape)|与 .reshape() 功能一致，但是修改原数组
+.swapaxes(ax1,ax2)|将数组 n 个维度的两个维度进行变换
+.flatten()|对数组进行降维，返回折叠后的一维数组，原数组不变
+
+### 数组类型变化
+method|indications|example
+----|----|----
+a.astype(new_type)|一定会创建一个新的数组|a.astype(np.float)
+a.tolist()|数组向列表转换|ls = a.tolist()
+
+### 数组的索引和切片
+Code(a=np.array([9,8,7,6,5]))|result|indication
+----|----|----
+a[1:4:2]|array([8,6])|起始编号:终止编号(不含):步长
+
+切片：
+
+Code(a=np.arange(24).reshape((2,3,4))|result|indication
+----|----|----
+a[:,1,-3]|array([5,17])|不同维度数据的范围
+
+## 数组与标量之间的运算
+对数组运算相当于对数组每一个元素进行运算
+a = np.arange(24).reshape((2,3,4))
+
+code|indication
+----|----
+a.means|求平均
+np.abs(x)  np.fabs(x)|计算数组各元素的绝对值
+np.sqrt(x)|计算数组各元素的平方根
+np.square(x)|计算数组各元素的平方
+np.log(x) np.log10(x) np.log2(x)|计算数组各元素的自然对数,10底对数和2底对数
+np.ceil(x) np.floor(x)| 计算数组各元素的 ceiling(不超过元素的整数值) 值或 floor 值(小于这个元素的最大整数值)
+np.rint(x)|计算数组各元素四舍五入值
+np.modf(x)|将数组各元素的小数和整数部分以两个独立数组形式返回
+np.cos(x) np.consh(x) np.sin(x） np.sinh(x) np.tan(x) np.tanh(x)|计算各元素的普通型和双曲型三角函数
+np.exp(x)|计算数组各元素的指数值
+np.sign(x)| 计算数组各元素的符号值，1(+),0,-1(-)
+
+##  numpy 二元函数
+两个矩阵相同位置的元素进行操作
+
+函数|说明
+----|----
++ - * / **|两个数组各元素进行对应运算
+np.maximum(x,y) mp.fmax() np.minimum(x,y) np.fmin|元素级的最大值/最小值计算
+np.mod(x,y)|元素级的模运算
+np.copysign(x,y)|将数组 y 中各元素值得符号赋值给数组 x 对应元素
+> < >= <= == !=|算术比较，产生布尔型数组
+
+## NumPy 数据存取
+### NumPy CSV 文件
+函数|说明|例子
+----|----|----
+np.savetxt(frame, array, fmt='%.18e', delimiter=None)|保存 csv 文件。frame:文件、字符串或产生器，可以是.gz或.bz2的压缩文件。array：存入文件的数组。 fmt：写入文件的格式，例如：%d%.2f%.18e。delimiter：分割字符串，默认是任何空格。|np.savetxt('a.csv', a, fmt='%d', delimiter',')
+np.loadtxt(frame, dtype=np.float, delimiter=None, unpack=False)|打开 csv 。frame:文件、字符串产生器，可以是.gz或.bz2的压缩文件。dtype:数据类型，可选。delimiter: 分割字符串，默认是任何空格。unpack:如果为 True，读入属性将分别写入不同变量。|b = np.loadtxt('a.csv',dtype=np.int, delimiter=',')
+
+### 多维数据存取
+ 函数|说明|例子
+ ---|---|---
+a.tofile(frame,sep='',format='%s')|framer：文件、字符串产生器，可以是.gz或.bz2的压缩文件。 sep：分隔符，format：写入文件的格式|a.tofile('b.dat',sep=',',format='%d')
+np.fromfile(frame,dtype=float,count=-1,sep='')|**写入文件的时候维度信息丢失，读取的时候需要 reshape** framer：文件、字符串产生器，可以是.gz或.bz2的压缩文件。dtype=读取的数据类型。count：读入元素个数，-1表示读入整个文件。 sep：数据分割字符串，如果是空串写入文件为二进制。|np.fromfile('b.dat'dtype=np.int,sep=',').reshape(5,10,2)
+### NumPy的便捷文件存取
+函数|解释
+---|---
+np.save(fname,array) 或者 np.savez(fname,array)|fname：文件名，以.npy为扩展名，压缩扩展名为.npz
+np.load(fname)|frame:文件名，以.npy为扩展名，压缩扩展名为.npz
+
+### 随机函数
+函数|说明|例子
+---|---|---
+rand(d0,d1,…,dn)|根据 d0-dn 创建随机数组，浮点数，[0,1]，均匀分布|
+randn(d0,d1,…,dn)|根据d0-dn创建随机数组，标准正态分布
+randint(low[,high,shape])| 根据 shape 创建随机整数数组，范围是[ low,high]，抽取是均匀分布|np.random.randint(100,200,(3,4))
+seed(s)|随机数种子，s是给定的种子值
+||
+shuffle(a)|根据数组a的第一轴进行随机排列,改变数组a
+permutation(a)|根据数组a的第一轴，产生一个新的乱序数组不改变数组a
+choice(a[,size,replace,p])|从一维数组a 中以概率 p 抽取元素，形成 size 形状新数组 replace 表示是否可以重用元素，默认为 False|choice(b,(3,2),p=b/np.sum(b))设定抽取概率
+||
+uniform(low,high,size)|产生具有均匀分布的数组，low 起始值， high 结束值， size 形状
+normal(loc，scale，size)|产生具有正态分布的数组，loc 均值， scale 标准差， size 形状
+ poisson(lam,size)|产生具有泊松分布的数组，lam 随机事件发生率，size 形状
+
+### NumPy  的统计函数
+axis：轴，None 对所有元素进行求和
+
+函数|说明
+---|---
+sum(a,axis=None)|根据给定轴 axis 计算数组 a 相关元素之和，axis 整数或元组
+mean(a,axis=None)|根据给定轴 axis 计算数组 a 相关元素的期望,axis整数或元组
+average(a,axis=None,weight=None)| 根据给定轴 axis 计算数组 a 相关元素的加权平均值
+std(a,axis=None)|根据给定轴 axis 计算数组 a 相关元素的标准差
+var(a,axis=None)|根据给定轴 axis 计算数组 a 相关元素的方差
+min(a) max(a)|计算数组 a 中最小值‘最大值
+argmin(a) argmax(a)|计算数组 a 中元素最小值、最大值降一维后下标
+unravel_index(index,shape)|根据 shape 将一维下标 index 转换成多维下标
+ptp(a)|计算数组 a 中元素最大值与最小值的差
+median(a)|计算数组a 元素的中位数（中值）
+
+### np.random 的梯度函数
+np.gradient(f)|计算数组 f 中元素的梯度，当 f 为多维是，返回每个维度的梯度
+---|---
+
