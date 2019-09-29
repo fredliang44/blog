@@ -40,7 +40,7 @@ using minify to squash assets, serving static files at tencent cloud cos
 
 ```shell
 ## minify assets support
-## assume you've installed golang in you system
+## assume you've installed golang in your system
 ## https://github.com/tdewolff/minify/tree/master/cmd/minify
 
 go get github.com/tdewolff/minify/cmd/minify
