@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Product Manager", "Work"]
-date = 2017-04-10T09:23:00Z
-description = "想法阶段 To-Do-List + Get-Things-Down类型"
-draft = false
-image = "https://statics.fredliang.cn/photo-1495291916458-c12f594151e7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=9d4496a256fda5349d4f2beeaebbf6c2"
-slug = "xiang-fa-jie-duan"
-tags = ["Product Manager", "Work"]
-title = "想法阶段"
+---
+author: "Fred Liang"
+categories: ["Product Manager", "Work"]
+date: 2017-04-10T09:23:00Z
+description: "想法阶段 To-Do-List + Get-Things-Down类型"
+draft: false
+image: "https://statics.fredliang.cn/photo-1495291916458-c12f594151e7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=9d4496a256fda5349d4f2beeaebbf6c2"
+slug: "xiang-fa-jie-duan"
+tags: ["Product Manager", "Work"]
+title: "想法阶段"
 
-+++
+---
 
 # 想法阶段
 ---

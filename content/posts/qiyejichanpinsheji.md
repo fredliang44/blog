@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Design", "Share"]
-date = 2018-12-21T08:55:42Z
-description = "企业级产品想要获得更加伟大的成功，产品提供者必须向使用者传达与用户产品基本标准一致的体验。"
-draft = false
-image = "/images/2018/12/tim-mossholder-563296-unsplash.jpg"
-slug = "qiyejichanpinsheji"
-tags = ["Design", "Share"]
-title = "[转载]企业级产品设计的未来－用户设计"
+---
+author: "Fred Liang"
+categories: ["Design", "Share"]
+date: 2018-12-21T08:55:42Z
+description: "企业级产品想要获得更加伟大的成功，产品提供者必须向使用者传达与用户产品基本标准一致的体验。"
+draft: false
+image: "/images/2018/12/tim-mossholder-563296-unsplash.jpg"
+slug: "qiyejichanpinsheji"
+tags: ["Design", "Share"]
+title: "[转载]企业级产品设计的未来－用户设计"
 
-+++
+---
 
 >来源：[百度EUX](http://eux.baidu.com/blog/ue/%E8%AF%91%E6%96%87%EF%BC%9A%E4%BC%81%E4%B8%9A%E7%BA%A7%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%9C%AA%E6%9D%A5%EF%BC%8D%E7%94%A8%E6%88%B7%E8%AE%BE%E8%AE%A1)
 >作者：Amanda Linden－Asana设计总监

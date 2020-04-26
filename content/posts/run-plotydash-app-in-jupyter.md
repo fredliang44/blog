@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Python"]
-date = 2018-01-02T09:23:43Z
-description = "Run ploty dash app in jupyter notebook"
-draft = false
-image = "/images/2018/01/92532.jpg"
-slug = "run-plotydash-app-in-jupyter"
-tags = ["Python"]
-title = "Run ploty dash app in jupyter notebook"
+---
+author: "Fred Liang"
+categories: ["Python"]
+date: 2018-01-02T09:23:43Z
+description: "Run ploty dash app in jupyter notebook"
+draft: false
+image: "/images/2018/01/92532.jpg"
+slug: "run-plotydash-app-in-jupyter"
+tags: ["Python"]
+title: "Run ploty dash app in jupyter notebook"
 
-+++
+---
 
 You could insert the code in begining of the jupyter notebook.
 

@@ -1,13 +1,13 @@
-+++
-author = "Fred Liang"
-date = 2017-02-09T06:40:00Z
-description = "关于Pinterest被长城墙了的看法以及解决办法 1.相关LINK知乎：https://www.zhihu.com/question/56570508"
-draft = false
-image = "/images/2018/07/photo-1487088678257-3a541e6e3922.jpeg"
-slug = "guan-yu-pinterestbei-chang-cheng-qiang-liao-de-kan-fa-yi-ji-jie-jue-ban-fa"
-title = "关于Pinterest被长城墙了的看法以及解决办法"
+---
+author: "Fred Liang"
+date: 2017-02-09T06:40:00Z
+description: "关于Pinterest被长城墙了的看法以及解决办法 1.相关LINK知乎：https://www.zhihu.com/question/56570508"
+draft: false
+image: "/images/2018/07/photo-1487088678257-3a541e6e3922.jpeg"
+slug: "guan-yu-pinterestbei-chang-cheng-qiang-liao-de-kan-fa-yi-ji-jie-jue-ban-fa"
+title: "关于Pinterest被长城墙了的看法以及解决办法"
 
-+++
+---
 
 知乎：https://www.zhihu.com/question/56570508
 

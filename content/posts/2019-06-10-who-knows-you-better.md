@@ -9,7 +9,7 @@ tags: ["Product Manager","Share"]
 > 刚刚看完《黑镜》第五季第五季第二集，关于一个大型社交媒体公司: Smithereens（碎片） 讲的是伦敦一个拼车司机绑架了社交媒体互联网公司的一个员工，引发了一场国际危机。
 > 为什么单独拎出来这一集，是因为这个这一集对于事件的演绎太贴近自己接触到的现实情况了，尤其一些关于技术与社会的演绎非常的深刻。
 
-![account analytics](https://storage.fredliang.cn/web/2019-06-10-064128.png?x-oss-process=image/resize,w_1000/quality,Q_60)
+![account analyticsz](https://storage.fredliang.cn/web/2019-06-10-064128.png?x-oss-process=image/resize,w_1000/quality,Q_60)
 
 ## 群体与个体数据
 
@@ -77,7 +77,7 @@ tags: ["Product Manager","Share"]
 
 其中受影响最大的网站列表(up to 2019.06.09)：
 
-| 域名                      |  已移除的网址数   |  要求移除的网址总数   |
+| 域名                      | 已移除的网址数 | 要求移除的网址总数 |
 | :------------------------ | -------------- | ------------------ |
 | www.facebook.com          | 21,418         | 51,658             |
 | annuaire.118712.fr        | 16,836         | 21,657             |

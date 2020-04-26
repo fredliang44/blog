@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Python", "Machine Learning", "Work"]
-date = 2018-01-01T08:33:53Z
-description = "gg 小组种子杯初赛报告。本次比赛一共有5个数据集，其中可供训练的有两个数据集，一个是不同队伍之间的对战成绩，另一个是每个队伍球员的成绩。目前的因此整体的前期数据处理都是分为两个方面，一个方面是通过挖掘比赛队伍之间的成绩来训练模型，另一个是把队员能力映射到球队水平来进行训练。"
-draft = false
-image = "/images/2018/07/photo-1491186561459-68c36c4a54ae.jpeg"
-slug = "gg-xiao-zu-chong-zi-bei-chu-sai-bao-gao"
-tags = ["Python", "Machine Learning", "Work"]
-title = "gg 小组种子杯初赛报告"
+---
+author: "Fred Liang"
+categories: ["Python", "Machine Learning", "Work"]
+date: 2018-01-01T08:33:53Z
+description: "gg 小组种子杯初赛报告。本次比赛一共有5个数据集，其中可供训练的有两个数据集，一个是不同队伍之间的对战成绩，另一个是每个队伍球员的成绩。目前的因此整体的前期数据处理都是分为两个方面，一个方面是通过挖掘比赛队伍之间的成绩来训练模型，另一个是把队员能力映射到球队水平来进行训练。"
+draft: false
+image: "/images/2018/07/photo-1491186561459-68c36c4a54ae.jpeg"
+slug: "gg-xiao-zu-chong-zi-bei-chu-sai-bao-gao"
+tags: ["Python", "Machine Learning", "Work"]
+title: "gg 小组种子杯初赛报告"
 
-+++
+---
 
 # gg 小组种子杯初赛报告
 队员： 柳泓鑫 梁志博 洪志远
@@ -93,33 +93,33 @@ teamData.csv 是每队队员的数据。
 data_io.load_csv(file)
 传入csv文件路径字符串，返回用numpy解析好的ndarray，默认跳过header。
 
-Parameter|Desc
----|---
-file|str, csv文件路径
+| Parameter | Desc             |
+| --------- | ---------------- |
+| file      | str, csv文件路径 |
 
 Returns: ndarray, 用numpy格式化好的ndarray。
 
 data_io.save_csv(file, hypothesis, header='')
 传入文件路径, 预测值和头，以%f的格式保存csv。
 
-Parameter|Desc
----|---
-file|str, csv文件路径。
-hypothesis|ndarray, float, 要保存的预测值。
-header|str, optional, default '', 要保存的csv文件的头。
+| Parameter  | Desc                                             |
+| ---------- | ------------------------------------------------ |
+| file       | str, csv文件路径。                               |
+| hypothesis | ndarray, float, 要保存的预测值。                 |
+| header     | str, optional, default '', 要保存的csv文件的头。 |
 
 Returns: None。
 
 data_io.plot_decision_boundary(X, y, predict_func, x_label='', y_label='')
 画出点和决策边界。
 
-Parameter|Desc
----|---
-X|ndarray, float, 要画的X, 限定二维数组。
-y|ndarray, float, 要画的y，限定值为0,1。
-predict_func|functoin, 预测函数。
-x_label|str, optional, default '', x轴标签名。
-y_label|str, optional, default '', y轴标签名。
+| Parameter    | Desc                                    |
+| ------------ | --------------------------------------- |
+| X            | ndarray, float, 要画的X, 限定二维数组。 |
+| y            | ndarray, float, 要画的y，限定值为0,1。  |
+| predict_func | functoin, 预测函数。                    |
+| x_label      | str, optional, default '', x轴标签名。  |
+| y_label      | str, optional, default '', y轴标签名。  |
 
 Returns: None。
 
@@ -127,45 +127,45 @@ class data_io.Model(clf, scale=False, grid_search=False, random_search=False, se
 
 基于 sk-learn 抽象的分类器模型。
 
-Parameter|Desc
----|---
-clf|object, sk-learn 分类 。
-scale|boolean, optional, default False, 是否进  feature scaling，使  sklearn.preprocessing.StandardScaler 进 缩放。
-grid_search|boolean, optional, default False，是否进  格搜索，使  sklearn.grid_search.GridSearchCV 进 搜索。
-random_search|boolean, optional, default False, 是否进 随机搜索，使  sklearn.grid_search.RandomizedSearchCV 进 搜索。
-search_params|dict, optional, default None，搜索参数，参数与 sklearn 的参数 致。
-**Attribute**|**Desc**
-clf|object, 初始化时传 的分类 。
-scale|boolean，初始化时传 的参数。
-random_search|boolean，初始化时传 的参数。
-grid_search|boolean，初始化时传 的参数。
-x|ndarray, float, fit 时传 的 x。
-y|ndarray, float, fit 时传 的 y。
+| Parameter     | Desc                                                                                                          |
+| ------------- | ------------------------------------------------------------------------------------------------------------- |
+| clf           | object, sk-learn 分类 。                                                                                      |
+| scale         | boolean, optional, default False, 是否进  feature scaling，使  sklearn.preprocessing.StandardScaler 进 缩放。 |
+| grid_search   | boolean, optional, default False，是否进  格搜索，使  sklearn.grid_search.GridSearchCV 进 搜索。              |
+| random_search | boolean, optional, default False, 是否进 随机搜索，使  sklearn.grid_search.RandomizedSearchCV 进 搜索。       |
+| search_params | dict, optional, default None，搜索参数，参数与 sklearn 的参数 致。                                            |
+| **Attribute** | **Desc**                                                                                                      |
+| clf           | object, 初始化时传 的分类 。                                                                                  |
+| scale         | boolean，初始化时传 的参数。                                                                                  |
+| random_search | boolean，初始化时传 的参数。                                                                                  |
+| grid_search   | boolean，初始化时传 的参数。                                                                                  |
+| x             | ndarray, float, fit 时传 的 x。                                                                               |
+| y             | ndarray, float, fit 时传 的 y。                                                                               |
 
 Returns: self, 返回分类 模型。
 
-Method|Desc
----|---
-fit(x, y)|基于 sklearn 封装
-predict(x)|返回预测值
-predict_prob(x)|返回 y 为 1 的置信度
-auc(x, y_true)|返回 auc
-plot(x, y, x_label='', y_label='')|画出点和决策边界
+| Method                             | Desc                 |
+| ---------------------------------- | -------------------- |
+| fit(x, y)                          | 基于 sklearn 封装    |
+| predict(x)                         | 返回预测值           |
+| predict_prob(x)                    | 返回 y 为 1 的置信度 |
+| auc(x, y_true)                     | 返回 auc             |
+| plot(x, y, x_label='', y_label='') | 画出点和决策边界     |
 
 #### **try.py**
 
 try.run(model) 运 该模型，返回 auc
-Parameter|Desc
----|---
-model|object, data_io.Model 的实例
+| | Parameter  |  Desc                         |                         |
+| | --------- ------ | ------------------------- ---------------------------- | |
+| | model          |  object, data_io.Model 的实例 | |
 
 Returns: auc, float
 
 try.save(model) 保存该模型预测的置信度，输出到 csv。
 
-Parameter|Desc
----|---
-model|object, data_io.Model 的实例
+| Parameter | Desc                         |
+| --------- | ---------------------------- |
+| model     | object, data_io.Model 的实例 |
 
 Returns: None
 

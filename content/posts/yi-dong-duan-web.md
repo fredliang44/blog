@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Web", "Design", "Technology", "Work"]
-date = 2018-01-01T09:22:44Z
-description = "秋招 H5 移动端（面向微信）设计师出的落地页的动画层数有30层左右，在通过 bodymovin 导入前端页面中后再加好素材之后仍有5秒左右黑屏渲染动画目前前端渲染有以下方案"
-draft = false
-image = "https://images.fredliang.cn/photo-1499175860898-fa38bee4bcdd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=8412b78d9c7dd5ec2bfd17ed7be486d7"
-slug = "yi-dong-duan-web"
-tags = ["Web", "Design", "Technology", "Work"]
-title = "移动端 Web 渲染解决方案"
+---
+author: "Fred Liang"
+categories: ["Web", "Design", "Technology", "Work"]
+date: 2018-01-01T09:22:44Z
+description: "秋招 H5 移动端（面向微信）设计师出的落地页的动画层数有30层左右，在通过 bodymovin 导入前端页面中后再加好素材之后仍有5秒左右黑屏渲染动画目前前端渲染有以下方案"
+draft: false
+image: "https://images.fredliang.cn/photo-1499175860898-fa38bee4bcdd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=8412b78d9c7dd5ec2bfd17ed7be486d7"
+slug: "yi-dong-duan-web"
+tags: ["Web", "Design", "Technology", "Work"]
+title: "移动端 Web 渲染解决方案"
 
-+++
+---
 
 # 背景
 秋招 H5 移动端（面向微信）设计师出的落地页的动画层数有30层左右，在通过 bodymovin 导入前端页面中后再加载好素材之后仍有5秒左右黑屏渲染动画
@@ -64,13 +64,13 @@ SVG 的另一个关键区分因素是能够进行代码交互且不复杂。正�
 ## SVG VS Canvas
 来自 **MSDN: SVG 与 Canvas:如何选择**
 
-Canvas|	SVG
----|---
-基于像素（动态 .png）|	基于形状
-单个 HTML 元素	|多个图形元素，这些元素成为 DOM 的一部分
-仅通过脚本修改	|通过脚本和 CSS 修改
-事件模型/用户交互颗粒化 (x,y)	|事件模型/用户交互抽象化 (rect, path)
-图面较小时、对象数量较大 (>10k)（或同时满足这二者）时性能更佳	|对象数量较小 (<10k)、图面更大（或同时满足这二者）时性能更佳
+| Canvas                                                        | SVG                                                         |
+| ------------------------------------------------------------- | ----------------------------------------------------------- |
+| 基于像素（动态 .png）                                         | 基于形状                                                    |
+| 单个 HTML 元素                                                | 多个图形元素，这些元素成为 DOM 的一部分                     |
+| 仅通过脚本修改                                                | 通过脚本和 CSS 修改                                         |
+| 事件模型/用户交互颗粒化 (x,y)                                 | 事件模型/用户交互抽象化 (rect, path)                        |
+| 图面较小时、对象数量较大 (>10k)（或同时满足这二者）时性能更佳 | 对象数量较小 (<10k)、图面更大（或同时满足这二者）时性能更佳 |
 
 >PS:关于10K这个分界线的来源不是很清楚
 
@@ -149,16 +149,16 @@ SVG 生成矢量图，并且和浏览器 DOM 的完全融合，这使它支持�
 ## WebGl
 移动端浏览器支持情况
 
-浏览器|情况
----|---
-Google Chrome | WebGL is fully supported.
-Mozilla Firefox | WebGL is fully supported.
-Apple Safari | WebGL is fully supported, but must be enabled by the end user. Apple will soon finish its testing of WebGL in Safari, and at that time, I would presume that WebGL will be enabled by default.
-Opera | WebGL will be fully supported starting with Opera 12. You can obtain an alpha build here.
-Microsoft Internet Explorer | Currently, this is the only contender that is not yet supporting WebGL, but you can use the Google Chrome Frame plugin to add support for WebGL.
-iOS Mobile Safari | WebGL is fully supported, but currently only for iAd customers. We expect WebGL to be fully enabled to all users at the same time that Apple enables it in desktop Safari.
-Android Browser | WebGL is fully supported on devices from some vendors, although it is likely coming to all devices in the near future.
-Firefox Mobile for Android | WebGL is fully supported. However, device compatibility may be an issue.
+| 浏览器                      | 情况                                                                                                                                                                                           |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Google Chrome               | WebGL is fully supported.                                                                                                                                                                      |
+| Mozilla Firefox             | WebGL is fully supported.                                                                                                                                                                      |
+| Apple Safari                | WebGL is fully supported, but must be enabled by the end user. Apple will soon finish its testing of WebGL in Safari, and at that time, I would presume that WebGL will be enabled by default. |
+| Opera                       | WebGL will be fully supported starting with Opera 12. You can obtain an alpha build here.                                                                                                      |
+| Microsoft Internet Explorer | Currently, this is the only contender that is not yet supporting WebGL, but you can use the Google Chrome Frame plugin to add support for WebGL.                                               |
+| iOS Mobile Safari           | WebGL is fully supported, but currently only for iAd customers. We expect WebGL to be fully enabled to all users at the same time that Apple enables it in desktop Safari.                     |
+| Android Browser             | WebGL is fully supported on devices from some vendors, although it is likely coming to all devices in the near future.                                                                         |
+| Firefox Mobile for Android  | WebGL is fully supported. However, device compatibility may be an issue.                                                                                                                       |
 ![屏幕快照 2017-07-28 上午10.13.10](https://static.fredliang.cn/2018-01-02-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202017-07-28%20%E4%B8%8A%E5%8D%8810.13.10.png)
 [图片来源:caniuse](http://caniuse.com/#feat=webgl)
 
@@ -206,25 +206,25 @@ https://www.youtube.com/watch?v=RrqR3DEPb4Q
 ##### 后来仔细看了一下 bodymovin 的 wiki
 https://github.com/bodymovin/bodymovin/wiki
 
-Feature	|svg|	canvas|	html
----|---|---|---
-precomps	|yes	|yes	|yes
-solids	|yes	|yes|	yes
-images	|yes|	yes|	yes
-shapes	|yes|	yes|	yes
-trim paths|	yes|	yes|	yes
-dashes	|yes|	yes|	yes
-time remapping	|yes|	yes|	yes
-additive masks	|yes	|yes	|yes
-other masks|	partial|	partial|	partial
-expanded masks	|yes	|no	|no
-track matte	|yes	|no	|no
-text as font	|yes	|no	|yes
-text as glyphs	|yes	|yes	|yes
-text animators	|yes	|yes	|yes
-expressions	|partial	|partial	|partial
-3d layers	|no	|no	|yes
-blend modes	|yes*	|yes	|yes
+| Feature        | svg     | canvas  | html    |
+| -------------- | ------- | ------- | ------- |
+| precomps       | yes     | yes     | yes     |
+| solids         | yes     | yes     | yes     |
+| images         | yes     | yes     | yes     |
+| shapes         | yes     | yes     | yes     |
+| trim paths     | yes     | yes     | yes     |
+| dashes         | yes     | yes     | yes     |
+| time remapping | yes     | yes     | yes     |
+| additive masks | yes     | yes     | yes     |
+| other masks    | partial | partial | partial |
+| expanded masks | yes     | no      | no      |
+| track matte    | yes     | no      | no      |
+| text as font   | yes     | no      | yes     |
+| text as glyphs | yes     | yes     | yes     |
+| text animators | yes     | yes     | yes     |
+| expressions    | partial | partial | partial |
+| 3d layers      | no      | no      | yes     |
+| blend modes    | yes*    | yes     | yes     |
 
 \* Except IE and Edge
 

@@ -16,10 +16,13 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 [author]                             # essential
   name = "Fred Liang"
 
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+  
 [blackfriday]
   smartypants = true
   angledQuotes = true
-  extensions = ["hardLineBreak", "autolink"]
+  extensions = ["hardLineBreak", "autolink", "strikethrough"]
   hrefTargetBlank = true
 
 [[menu.main]]                        # config your menu
@@ -48,7 +51,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   # mathjax
   enableMathJax = true                                                 # enable mathjax  
   enableSummary = true                                                 # display the article summary
-
+  hugoEncryptorStorage = "session" 
   description = "Thoughts, ideas and notes"
 
 # Valine.
@@ -64,7 +67,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 [params.fathom]
   enable = true
   hostname = "fathom.fredliang.cn"  
-  trackerID  = "GQTKW"
+  trackerID  = "SJDRG"
 
 [params.beian]
   text = "京ICP备16033945号"
@@ -74,8 +77,6 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   facebook = "https://www.facebook.com/profile.php?id=100015539800123"
   wechat = "https://storage.fredliang.cn/Wechat-QRCode.jpeg"
   linkedin = "https://www.linkedin.com/in/liangzhibo/"
-
-
 
 [outputs]
   home = [ "HTML", "RSS" ]

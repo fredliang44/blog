@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Unique Studio", "Work"]
-date = 2018-01-01T09:53:56Z
-description = ".联创团队是什么？联创团队（Unique Studio）创建于2000年6月。队名“联创”寓意联众人之志，创非凡之事。"
-draft = false
-image = "https://statics.fredliang.cn/photo-1512295767273-ac109ac3acfa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=c4a579a8f9515f57d2b0a395b802a7a3"
-slug = "lian-chuang-tuan-dui"
-tags = ["Unique Studio", "Work"]
-title = "联创团队"
+---
+author: "Fred Liang"
+categories: ["Unique Studio", "Work"]
+date: 2018-01-01T09:53:56Z
+description: ".联创团队是什么？联创团队（Unique Studio）创建于2000年6月。队名“联创”寓意联众人之志，创非凡之事。"
+draft: false
+image: "https://statics.fredliang.cn/photo-1512295767273-ac109ac3acfa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=c4a579a8f9515f57d2b0a395b802a7a3"
+slug: "lian-chuang-tuan-dui"
+tags: ["Unique Studio", "Work"]
+title: "联创团队"
 
-+++
+---
 
 ### 1.联创团队是什么？
 联创团队（Unique Studio）创建于2000年6月。队名“联创”寓意联众人之志，创非凡之事。

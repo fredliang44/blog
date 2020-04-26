@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Big Data", "Work", "Share", "Technology", "Product Manager"]
-date = 2018-12-18T01:19:28Z
-description = "我们正处于数据的黄金时代。对于我们这些身处用户端的人来说，它的感觉并不明显。但是这项技术的每一走过的每一步都值得更深入的分析。"
-draft = false
-image = "https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "shu-ju-ping-tai-de-li-shi-jin-cheng"
-tags = ["Big Data", "Work", "Share", "Technology", "Product Manager"]
-title = "数据平台的历史进程"
+---
+author: "Fred Liang"
+categories: ["Big Data", "Work", "Share", "Technology", "Product Manager"]
+date: 2018-12-18T01:19:28Z
+description: "我们正处于数据的黄金时代。对于我们这些身处用户端的人来说，它的感觉并不明显。但是这项技术的每一走过的每一步都值得更深入的分析。"
+draft: false
+image: "https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
+slug: "shu-ju-ping-tai-de-li-shi-jin-cheng"
+tags: ["Big Data", "Work", "Share", "Technology", "Product Manager"]
+title: "数据平台的历史进程"
 
-+++
+---
 
 > 我们正处于数据的黄金时代。对于我们这些身处用户端的人来说，它的感觉并不明显。但是这项技术的每一走过的每一步都值得更深入的分析。
 

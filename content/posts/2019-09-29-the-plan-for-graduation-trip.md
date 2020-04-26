@@ -1,36 +1,80 @@
 ---
-title: "一个老年毕业旅行计划"
+title: "一个老年人毕业旅行计划"
 date: 2019-09-29T14:26:14+08:00
+description: "初步计划 2020 年上半年，完整时间约为三个月。目前版本为主干目录，后续会逐渐完善"
+tags: ["Travel"]
 draft: true
 ---
-<script src='https://api.mapbox.com/mapbox-gl-js/v1.3.2/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v1.3.2/mapbox-gl.css' rel='stylesheet' />
-<div id='map' style='width: 100%; height: 500px;'></div>
 
-<script>mapboxgl.accessToken = 'pk.eyJ1IjoiZnJlZGxpYW5nIiwiYSI6ImNrMTRuZWVsMTA5eXkzY21yODI2bzhqeDUifQ.nTOr_fVWnooxjv-gB9Kssg';
-var map = new mapboxgl.Map({
-container: 'map',
-style: 'mapbox://styles/fredliang/ck14nivpw0j5m1cmt8zkttzbz'
-});
-map.on('load', function () {
-map.addSource('test', {
-type: 'vector',
-url: 'mapbox://fredliang.ck14njq9i0ptp2ip88jouzl0u-61mw6'
-});
-map.addLayer({
-'id': 'test',
-'type': 'line',
-'source': 'test',
-'source-layer': 'test',
-'layout': {
-'visibility': 'visible',
-'line-join': 'round',
-'line-cap': 'round'
-},
-'paint': {
-'line-color': '#877b59',
-'line-width': 1
-}
-});
-})
-</script>
+<iframe id="inlineFrameExample"
+    frameborder="no"
+    width="100%"
+    height="400px"
+    src="https://maps.lzb.im/l7.html">
+</iframe>
+
+## 时间
+
+初步计划 2020 年上半年，完整时间约为三个月
+
+## 参与方式
+
+**旅游期间以划水为主，逛为辅。
+如果资金不是很充裕，推荐找好 Remote 实习**
+
+可以部分行程参与，相当于在其中某个 or 某几个城市参与。
+
+TODO:后续会出一个时间表，标记每个城市待的时间。
+计划会不时调整，主要遵循以下原则：
+
+* 有人参与的部分，非特殊情况不改变时间安排
+* 单人的行程安排随时调整（基于咸鱼程度）
+* 如果有不可规避的行程调整会提前 1~2 周跟对应同学协调
+
+## 几个关于旅游的究极问题
+
+### 旅行计划
+
+前期会做相对比较完善的旅行计划，然后到了地点这个旅行计划就仅供参考了(是“图片仅供参考”的那种“仅供参考”)。在旅行期间保持着参与者的独立性，不要求、不推荐所有人集体行动，完全基于自愿组队游玩。负责计划的同学(大部分时间是我)不对游玩的内容与可靠性负责。如果有意见或建议请提起那沟通
+
+## 资金
+
+来源推荐：Remote 实习 > 提前实习攒的工资 > 家里赞助
+
+原则：
+
+* 可以单人付费由个人支付(包括 AA 吃饭之类的)
+* 需要合并收费的可预估价格的提前收费，多退少补
+* 不可预估的由我垫付，完成之后补交
+
+## 准备工作
+
+### 护照
+
+涉及出国部分，需要提前准备护照：
+
+* 理论上需要在提前 1 个月确认护照到手防止出现问题
+* 目前大陆不允许台湾自由行，这部分根据到时候政策规定来处理
+* TODO: 关于 HK，TW，JP，SG 的护照问题后续会出一个详细文档
+
+### 住宿
+
+Airbnb 为主，如果有临时性变动会迁移至酒店
+
+## Not Just a Trip
+
+### 香港银行开户
+
+#### 储蓄账户
+
+招商银行永隆(银联)：<https://shimo.im/docs/PJ08PRPpEUoQjRo0/read> // 顺带开通股票账户
+
+#### 离岸账户
+
+### 港股开户
+
+### 香港保险
+
+### 香港手机卡(大陆免 fq 救急)
+
+### Strip & PayPal 收款

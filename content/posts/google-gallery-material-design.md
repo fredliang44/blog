@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Design"]
-date = 2017-04-22T03:31:00Z
-description = "最近看见[https://material.io/](https://material.io/)上更新了很多软件，其中有Gallery, Remixer, Resizer, Stage 和 Color tool"
-draft = false
-image = "/images/2018/07/photo-1453582910667-13cbcd4479c1.jpeg"
-slug = "google-gallery-material-design"
-tags = ["Design"]
-title = "Google Gallery (Material Design)"
+---
+author: "Fred Liang"
+categories: ["Design"]
+date: 2017-04-22T03:31:00Z
+description: "最近看见[https://material.io/](https://material.io/)上更新了很多软件，其中有Gallery, Remixer, Resizer, Stage 和 Color tool"
+draft: false
+image: "/images/2018/07/photo-1453582910667-13cbcd4479c1.jpeg"
+slug: "google-gallery-material-design"
+tags: ["Design"]
+title: "Google Gallery (Material Design)"
 
-+++
+---
 
 最近看见[https://material.io/](https://material.io/)上更新了很多软件，其中有Gallery, Remixer, Resizer, Stage 和 Color tool
 

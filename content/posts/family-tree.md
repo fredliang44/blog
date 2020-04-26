@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Product Manager", "Unique Studio", "Work"]
-date = 2018-02-14T09:33:49Z
-description = "Family Tree 是一个记录团队成员信息和成员关系工具型网页"
-draft = false
-image = "/images/2018/02/gil-1140041-1400x933.jpg"
-slug = "family-tree"
-tags = ["Product Manager", "Unique Studio", "Work"]
-title = "Family Tree"
+---
+author: "Fred Liang"
+categories: ["Product Manager", "Unique Studio", "Work"]
+date: 2018-02-14T09:33:49Z
+description: "Family Tree 是一个记录团队成员信息和成员关系工具型网页"
+draft: false
+image: "/images/2018/02/gil-1140041-1400x933.jpg"
+slug: "family-tree"
+tags: ["Product Manager", "Unique Studio", "Work"]
+title: "Family Tree"
 
-+++
+---
 
 Family Tree 是一个记录团队成员信息和成员关系工具型网页
 

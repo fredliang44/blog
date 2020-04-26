@@ -12,7 +12,7 @@ draft: true
 2. 10 年内创立的较大的上市互联网公司(Boss 可能是最耐不住寂寞的投资人)
 3. 目前可能是全球最火的 start up
 
-在这过程中发现：发现在公司级别可复用的基础设施还是太多了，远远不止目前遍地的 XX 云
+在实习过程中发现：发现在公司级别可复用的基础设施还是太多了，远远不止目前遍地的 XX 云
 
 这里在讨论一个可行性：如果向外提供中台开放策略，能否降维打击市场上现在“小而美”的 SAAS 服务。
 
@@ -47,3 +47,7 @@ start up 的成本越来越低，经营难度曲线陡峭程度逐渐放缓
 ### Open Company
 
 随着边界逐渐模糊，公司和个人之间的界限逐渐模糊。会不会衍生出来一套 Open Company 的概念？
+
+## Reference
+
+1. [When AWS, Azure, or GCP Becomes the Competition](https://www.gkogan.co/blog/big-cloud/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website)

@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Design"]
-date = 2018-08-31T01:54:02Z
-description = "在2018年5月15日，Airbnb 推出了一种名为Airbnb Cereal 的新字体。Airbnb Cereal 字体是与全球字体工作室 Dalton Maag 与 Airbnb 的营销和体验设计团队合作创建的。"
-draft = false
-image = "/images/2018/08/header-fs8--1--1.png"
-slug = "wo-men-ru-he-jiang-airbnb-cereal-zi-ti-yin-ru-ui"
-tags = ["Design"]
-title = "[翻译]我们如何将 Airbnb Cereal 字体引入UI系统中"
+---
+author: "Fred Liang"
+categories: ["Design"]
+date: 2018-08-31T01:54:02Z
+description: "在2018年5月15日，Airbnb 推出了一种名为Airbnb Cereal 的新字体。Airbnb Cereal 字体是与全球字体工作室 Dalton Maag 与 Airbnb 的营销和体验设计团队合作创建的。"
+draft: false
+image: "/images/2018/08/header-fs8--1--1.png"
+slug: "wo-men-ru-he-jiang-airbnb-cereal-zi-ti-yin-ru-ui"
+tags: ["Design"]
+title: "[翻译]我们如何将 Airbnb Cereal 字体引入UI系统中"
 
-+++
+---
 
 > 原文链接：<https://airbnb.design/working-type/>
 

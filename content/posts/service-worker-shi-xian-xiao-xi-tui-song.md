@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Web", "Technology"]
-date = 2018-10-15T10:57:16Z
-description = "service worker 则是为解决“Web App 的用户体验不如 Native App”的普遍问题而提供的一系列技术集合，必然部分处理逻辑会牵扯到 UI 线程，从而在启动 service worker 的时候，UI 线程的繁忙也会影响其启动性能。"
-draft = false
-image = "/images/2018/12/photo-1536313068353-25ed2a981ea2.jpeg"
-slug = "service-worker-shi-xian-xiao-xi-tui-song"
-tags = ["Web", "Technology"]
-title = "Service Worker 实现 web 应用消息推送"
+---
+author: "Fred Liang"
+categories: ["Web", "Technology"]
+date: 2018-10-15T10:57:16Z
+description: "service worker 则是为解决“Web App 的用户体验不如 Native App”的普遍问题而提供的一系列技术集合，必然部分处理逻辑会牵扯到 UI 线程，从而在启动 service worker 的时候，UI 线程的繁忙也会影响其启动性能。"
+draft: false
+image: "/images/2018/12/photo-1536313068353-25ed2a981ea2.jpeg"
+slug: "service-worker-shi-xian-xiao-xi-tui-song"
+tags: ["Web", "Technology"]
+title: "Service Worker 实现 web 应用消息推送"
 
-+++
+---
 
 > 网站：<https://www.fredliang.cn>
 > Github： <https://github.com/fredliang44/fredliang.cn>(暂未开源)
@@ -167,7 +167,7 @@ self.addEventListener('push', function(event) {
       return response.json();
     })
     .then(function(response) {
-      const title = 'Message from Fred Liang'
+      const title: 'Message from Fred Liang'
       const options = {
         body: 'currently ' + response.data + ' visitors',
         icon: '/img/icons/icon-128x128.png',

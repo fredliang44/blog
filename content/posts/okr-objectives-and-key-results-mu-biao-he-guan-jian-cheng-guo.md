@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Product Manager"]
-date = 2018-07-04T03:38:13Z
-description = "制定OKR的基本方法是：首先，要设定一个“目标”（Objective），这个目标不必是确切的、可衡量的，例如“我想让我的网站更好”；然后，设定若干可以量化的“关键结果”（Key Results），用来帮助自己实现目标，例如“让网站速度加快30%”或者“融入度提升15%”之类的具体目标。"
-draft = false
-image = "https://cdn.blog.fredliang.cn/photo-1529119368496-2dfda6ec2804?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=fb0203f7269fbf85e90a9b939fe814c2"
-slug = "okr-objectives-and-key-results-mu-biao-he-guan-jian-cheng-guo"
-tags = ["Product Manager"]
-title = "OKR: Objectives and Key Results(目标和关键成果)"
+---
+author: "Fred Liang"
+categories: ["Product Manager"]
+date: 2018-07-04T03:38:13Z
+description: "制定OKR的基本方法是：首先，要设定一个“目标”（Objective），这个目标不必是确切的、可衡量的，例如“我想让我的网站更好”；然后，设定若干可以量化的“关键结果”（Key Results），用来帮助自己实现目标，例如“让网站速度加快30%”或者“融入度提升15%”之类的具体目标。"
+draft: false
+image: "https://cdn.blog.fredliang.cn/photo-1529119368496-2dfda6ec2804?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=fb0203f7269fbf85e90a9b939fe814c2"
+slug: "okr-objectives-and-key-results-mu-biao-he-guan-jian-cheng-guo"
+tags: ["Product Manager"]
+title: "OKR: Objectives and Key Results(目标和关键成果)"
 
-+++
+---
 
 OKR 样例：<[Objectives and Key Results (OKRs) | GitLab](https://about.gitlab.com/okrs/)>
 ## 1. OKR的基本方法与原则

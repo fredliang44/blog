@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Product Manager", "Unique Studio", "Design", "Web", "Python", "Work"]
-date = 2018-01-02T05:52:00Z
-description = "Panel 是一个移动端 APP，提供云服务器以及容器管理服务，用户可以快速地通过 Panel 创建，启动，停止，销毁云服务器和容器。"
-draft = false
-image = "https://statics.fredliang.cn/photo-1501772529219-ed0014f5032c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=187d9cca52432a4147c14bec0af9eba7"
-slug = "panel"
-tags = ["Product Manager", "Unique Studio", "Design", "Web", "Python", "Work"]
-title = "Panel"
+---
+author: "Fred Liang"
+categories: ["Product Manager", "Unique Studio", "Design", "Web", "Python", "Work"]
+date: 2018-01-02T05:52:00Z
+description: "Panel 是一个移动端 APP，提供云服务器以及容器管理服务，用户可以快速地通过 Panel 创建，启动，停止，销毁云服务器和容器。"
+draft: false
+image: "https://statics.fredliang.cn/photo-1501772529219-ed0014f5032c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=187d9cca52432a4147c14bec0af9eba7"
+slug: "panel"
+tags: ["Product Manager", "Unique Studio", "Design", "Web", "Python", "Work"]
+title: "Panel"
 
-+++
+---
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 

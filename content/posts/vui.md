@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Product Manager", "Machine Learning", "Work"]
-date = 2018-02-09T09:23:47Z
-description = "语音交互界面（Voice User Interface，VUI）、手势、动作、表情交互，甚至脑机接口，都属于`自然用户界面`（NUI）。"
-draft = false
-image = "/images/2018/02/VUI-squashed-1.jpg"
-slug = "vui"
-tags = ["Product Manager", "Machine Learning", "Work"]
-title = "VUI (语音交互)"
+---
+author: "Fred Liang"
+categories: ["Product Manager", "Machine Learning", "Work"]
+date: 2018-02-09T09:23:47Z
+description: "语音交互界面（Voice User Interface，VUI）、手势、动作、表情交互，甚至脑机接口，都属于`自然用户界面`（NUI）。"
+draft: false
+image: "/images/2018/02/VUI-squashed-1.jpg"
+slug: "vui"
+tags: ["Product Manager", "Machine Learning", "Work"]
+title: "VUI (语音交互)"
 
-+++
+---
 
 语音交互界面（Voice User Interface，VUI）、手势、动作、表情交互，甚至脑机接口，都属于`自然用户界面`（NUI）。
 
@@ -112,11 +112,11 @@ SDK 层主要是不同系统环境接入，正在认证 DuerOS 的开发者，�
 
 ==高效的交互方式就是好的交互方式。==
 
-交互方式|速度|准确度|负荷|感官维度|效率|学习成本
----|---|---|---|---|---|---
-键盘|慢|高|高|视觉，触觉|低|高
-触控|中|中|中|视觉，触觉|中|中
-语音|快|低|低|听觉|高|低
+| 交互方式 | 速度 | 准确度 | 负荷 | 感官维度   | 效率 | 学习成本 |
+| -------- | ---- | ------ | ---- | ---------- | ---- | -------- |
+| 键盘     | 慢   | 高     | 高   | 视觉，触觉 | 低   | 高       |
+| 触控     | 中   | 中     | 中   | 视觉，触觉 | 中   | 中       |
+| 语音     | 快   | 低     | 低   | 听觉       | 高   | 低       |
 
 ## 5.VUI 目前的问题
 ### 1) 远场识别

@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Design", "Product Manager"]
-date = 2018-08-23T10:34:46Z
-description = "在前端产品中，我们无法保证用户的网络情况，也很难从最末端节点优化自有网络部署。这些或多或少地都会反映到用户端的加载延迟。Loading 的产生是为了在无法立即呈现的界面中优化用户的使用体验。反过来看，Loading 动画能够为资源准备工作提供更多的加载时间，提高用户的转化率。"
-draft = false
-image = "/images/2018/08/riku-lu-4446-unsplash.jpg"
-slug = "zuo-hao-loading-she-ji"
-tags = ["Design", "Product Manager"]
-title = "做好 Loading 设计"
+---
+author: "Fred Liang"
+categories: ["Design", "Product Manager"]
+date: 2018-08-23T10:34:46Z
+description: "在前端产品中，我们无法保证用户的网络情况，也很难从最末端节点优化自有网络部署。这些或多或少地都会反映到用户端的加载延迟。Loading 的产生是为了在无法立即呈现的界面中优化用户的使用体验。反过来看，Loading 动画能够为资源准备工作提供更多的加载时间，提高用户的转化率。"
+draft: false
+image: "/images/2018/08/riku-lu-4446-unsplash.jpg"
+slug: "zuo-hao-loading-she-ji"
+tags: ["Design", "Product Manager"]
+title: "做好 Loading 设计"
 
-+++
+---
 
 ## 1. 前述
 

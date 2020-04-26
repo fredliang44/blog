@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Technology"]
-date = 2018-01-09T00:07:00Z
-description = "正常情况下校园网的网速是 10mb/s，尤其是在使用华科的镜像源的时候，速度可以稳定在11+mb/s。由于之前百兆路由器速度限制，只能达到2mb/s，因此更换了一个路由器。"
-draft = false
-image = "https://images.fredliang.cn/photo-1496055401924-5e7fdc885742?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ%3D%3D%0A&s=dc77c148231a3785e219e73b24140a07"
-slug = "xiao-mi-lu-you-qi-3g-mentohust-yi-ji-ss-pei-zhi"
-tags = ["Technology"]
-title = "小米路由器 3G mentohust 以及 SS 配置"
+---
+author: "Fred Liang"
+categories: ["Technology"]
+date: 2018-01-09T00:07:00Z
+description: "正常情况下校园网的网速是 10mb/s，尤其是在使用华科的镜像源的时候，速度可以稳定在11+mb/s。由于之前百兆路由器速度限制，只能达到2mb/s，因此更换了一个路由器。"
+draft: false
+image: "https://images.fredliang.cn/photo-1496055401924-5e7fdc885742?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ%3D%3D%0A&s=dc77c148231a3785e219e73b24140a07"
+slug: "xiao-mi-lu-you-qi-3g-mentohust-yi-ji-ss-pei-zhi"
+tags: ["Technology"]
+title: "小米路由器 3G mentohust 以及 SS 配置"
 
-+++
+---
 
 正常情况下校园网的网速是 10mb/s，尤其是在使用华科的镜像源的时候，速度可以稳定在11+mb/s。
 由于之前百兆路由器速度限制，只能达到2mb/s，因此更换了一个路由器。

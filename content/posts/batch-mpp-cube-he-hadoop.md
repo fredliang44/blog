@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Big Data", "Work"]
-date = 2018-12-10T02:02:00Z
-description = "Batch：批处理MPP：大规模并行处理Cube：多维立方体Hadoop：是一款支持数据密集型分布式应用程序"
-draft = false
-image = "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-slug = "batch-mpp-cube-he-hadoop"
-tags = ["Big Data", "Work"]
-title = "Batch、MPP、Cube 和 Hadoop"
+---
+author: "Fred Liang"
+categories: ["Big Data", "Work"]
+date: 2018-12-10T02:02:00Z
+description: "Batch：批处理MPP：大规模并行处理Cube：多维立方体Hadoop：是一款支持数据密集型分布式应用程序"
+draft: false
+image: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
+slug: "batch-mpp-cube-he-hadoop"
+tags: ["Big Data", "Work"]
+title: "Batch、MPP、Cube 和 Hadoop"
 
-+++
+---
 
 Batch：批处理
 MPP：大规模并行处理

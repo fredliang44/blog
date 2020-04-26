@@ -1,13 +1,13 @@
-+++
-author = "Fred Liang"
-date = 2017-12-05T07:22:00Z
-description = "Valine 是一款基于 Leancloud 的极简评论系统，作者为 xCss，为了替代天国的多说及网易云跟帖。"
-draft = false
-image = "https://cdn.blog.fredliang.cn/photo-1453738773917-9c3eff1db985?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=70e449568bbd046996dd624a05ec69f0"
-slug = "valine-ping-lun-xi-tong"
-title = "Valine  评论系统"
+---
+author: "Fred Liang"
+date: 2017-12-05T07:22:00Z
+description: "Valine 是一款基于 Leancloud 的极简评论系统，作者为 xCss，为了替代天国的多说及网易云跟帖。"
+draft: false
+image: "https://cdn.blog.fredliang.cn/photo-1453738773917-9c3eff1db985?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=70e449568bbd046996dd624a05ec69f0"
+slug: "valine-ping-lun-xi-tong"
+title: "Valine  评论系统"
 
-+++
+---
 
 Valine 是一款基于 Leancloud 的极简评论系统，作者为 xCss，为了替代天国的多说及网易云跟帖。
 

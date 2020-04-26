@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Python", "Technology"]
-date = 2018-01-09T09:12:16Z
-description = "最近在写一个网站后台，由于涉及到阿里云的 SDK ，而阿里云在自己的源[(https://mirrors.aliyun.com)](https://mirrors.aliyun.com)上发布的 SDK 要新，因此在设置 Python 的包管理的时候需要注意很多东西。"
-draft = false
-image = "https://images.fredliang.cn/photo-1473777785975-efb668f9ea99?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ%3D%3D%0A&s=de22be290ca307ac60f123947ebfa90a"
-slug = "python-virtualenv"
-tags = ["Python", "Technology"]
-title = "Python 虚拟环境方案比较"
+---
+author: "Fred Liang"
+categories: ["Python", "Technology"]
+date: 2018-01-09T09:12:16Z
+description: "最近在写一个网站后台，由于涉及到阿里云的 SDK ，而阿里云在自己的源[(https://mirrors.aliyun.com)](https://mirrors.aliyun.com)上发布的 SDK 要新，因此在设置 Python 的包管理的时候需要注意很多东西。"
+draft: false
+image: "https://images.fredliang.cn/photo-1473777785975-efb668f9ea99?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ%3D%3D%0A&s=de22be290ca307ac60f123947ebfa90a"
+slug: "python-virtualenv"
+tags: ["Python", "Technology"]
+title: "Python 虚拟环境方案比较"
 
-+++
+---
 
 最近在写一个网站后台，由于涉及到阿里云的 SDK ，而阿里云在自己的源[(https://mirrors.aliyun.com)](https://mirrors.aliyun.com)上发布的 SDK 要新，因此在设置 Python 的包管理的时候需要注意很多东西。
 

@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Web", "Technology"]
-date = 2018-07-26T05:23:20Z
-description = "公司H5的入口流量的留存一直很低，后面想要去优化这部分用户留存。"
-draft = true
-image = "/images/2018/07/pwa-reliable.png"
-slug = "pwa-shi-jian"
-tags = ["Web", "Technology"]
-title = "PWA 产品实践"
+---
+author: "Fred Liang"
+categories: ["Web", "Technology"]
+date: 2018-07-26T05:23:20Z
+description: "公司H5的入口流量的留存一直很低，后面想要去优化这部分用户留存。"
+draft: true
+image: "/images/2018/07/pwa-reliable.png"
+slug: "pwa-shi-jian"
+tags: ["Web", "Technology"]
+title: "PWA 产品实践"
 
-+++
+---
 
 > 公司H5的入口流量的留存一直很低，后面想要去优化这部分用户留存。
 > H5的流量大部分是推广渠道进来的，也就是说如果这部分流量留存率上来可以沉淀下来许多新客。

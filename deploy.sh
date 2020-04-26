@@ -1,4 +1,5 @@
 hugo
+python3 hugo-encryptor.py
 
 find ./public -name "*.html" -exec minify --html-keep-document-tags --html-keep-end-tags  -o {} {} \;
 

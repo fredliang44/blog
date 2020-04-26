@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Golang", "Technology"]
-date = 2018-04-30T11:32:00Z
-description = "GraphQL提供了一种灵活而有效的方式来查询服务器中的数据。 它正在成为设计后端的流行技术，通常会替换或封装一些不灵活的REST API，并让客户负责决定他们需要的数据。 现在有许多用于编写JavaScript的GraphQL客户端和服务器的库和框架，其中最着名的是Apollo和Graphcool 。 Apollo团队还开发了针对WebSockets的GraphQL协议，该协议主要用于Apollo Client和Graphcool中的Subscriptions。"
-draft = false
-image = "/images/2018/05/go.jpg"
-slug = "zai-gozhong-gou-jian-dai-ding-yue-de-graphqlfu-wu-qi"
-tags = ["Golang", "Technology"]
-title = "[翻译]构建带 Subscriptions 的 graphql  golang 后端"
+---
+author: "Fred Liang"
+categories: ["Golang", "Technology"]
+date: 2018-04-30T11:32:00Z
+description: "GraphQL提供了一种灵活而有效的方式来查询服务器中的数据。 它正在成为设计后端的流行技术，通常会替换或封装一些不灵活的REST API，并让客户负责决定他们需要的数据。 现在有许多用于编写JavaScript的GraphQL客户端和服务器的库和框架，其中最着名的是Apollo和Graphcool 。 Apollo团队还开发了针对WebSockets的GraphQL协议，该协议主要用于Apollo Client和Graphcool中的Subscriptions。"
+draft: false
+image: "/images/2018/05/go.jpg"
+slug: "zai-gozhong-gou-jian-dai-ding-yue-de-graphqlfu-wu-qi"
+tags: ["Golang", "Technology"]
+title: "[翻译]构建带 Subscriptions 的 graphql  golang 后端"
 
-+++
+---
 
 GraphQL提供了一种灵活而有效的方式来查询服务器中的数据。 它正在成为设计后端的流行技术，通常会替换或封装一些不灵活的REST API，并让客户负责决定他们需要的数据。 现在有许多用于编写JavaScript的GraphQL客户端和服务器的库和框架，其中最着名的是Apollo和Graphcool 。 Apollo团队还开发了针对WebSockets的GraphQL协议，该协议主要用于Apollo Client和Graphcool中的Subscriptions。
 

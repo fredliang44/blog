@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Product Manager", "Unique Studio", "Work"]
-date = 2018-06-15T06:59:09Z
-description = "组织或项目增长过程中，人员的快速增长会在一定程度上显现为组织的过扁平化。在现有管理规则无法快速完善或者管理模式无法快速搭建的背景下，个人进行的一些方案探讨与考虑。"
-draft = false
-image = "https://cdn.blog.fredliang.cn/photo-1525422847952-7f91db09a364?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=adeaf2708fc9e5a1e3405c7dcd590c76"
-slug = "bian-ping-zu-zhi-zhong-de-yi-wu-he-ze-ren-fen-pei"
-tags = ["Product Manager", "Unique Studio", "Work"]
-title = "扁平组织中的义务和责任分配"
+---
+author: "Fred Liang"
+categories: ["Product Manager", "Unique Studio", "Work"]
+date: 2018-06-15T06:59:09Z
+description: "组织或项目增长过程中，人员的快速增长会在一定程度上显现为组织的过扁平化。在现有管理规则无法快速完善或者管理模式无法快速搭建的背景下，个人进行的一些方案探讨与考虑。"
+draft: false
+image: "https://cdn.blog.fredliang.cn/photo-1525422847952-7f91db09a364?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=adeaf2708fc9e5a1e3405c7dcd590c76"
+slug: "bian-ping-zu-zhi-zhong-de-yi-wu-he-ze-ren-fen-pei"
+tags: ["Product Manager", "Unique Studio", "Work"]
+title: "扁平组织中的义务和责任分配"
 
-+++
+---
 
 >组织或项目增长过程中，人员的快速增长会在一定程度上显现为组织的过扁平化。在现有管理规则无法快速完善或者管理模式无法快速搭建的背景下，个人进行的一些方案探讨与考虑。
 

@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Product Manager", "Work", "Share"]
-date = 2018-10-24T07:42:24Z
-description = ""
-draft = true
-image = "https://images.unsplash.com/photo-1537523060262-4bb9eba37a04?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=7423940932c9055dda21476d0ee45055"
-slug = "liao-liao-pm"
-tags = ["Product Manager", "Work", "Share"]
-title = "聊聊 PM"
-hidden = true
-+++
+---
+author: "Fred Liang"
+categories: ["Product Manager", "Work", "Share"]
+date: 2018-10-24T07:42:24Z
+description: ""
+draft: true
+image: "https://images.unsplash.com/photo-1537523060262-4bb9eba37a04?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=7423940932c9055dda21476d0ee45055"
+slug: "liao-liao-pm"
+tags: ["Product Manager", "Work", "Share"]
+title: "聊聊 PM"
+hidden: true
+---
 
 >一点想法
 

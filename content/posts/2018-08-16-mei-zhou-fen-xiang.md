@@ -8,7 +8,6 @@ image = "/images/2018/08/wasm.png"
 slug = "2018-08-16-mei-zhou-fen-xiang"
 tags = ["Share", "Technology", "Design", "Product Manager"]
 title = "2018.8.16 每周分享"
-
 +++
 
 >一直在看阮一峰的每周分享 <http://www.ruanyifeng.com/blog/> ，因为自己的视野和关注点和他有一些区别，借鉴了每周分享的形式，也希望把自己看见的正在发生的有意思的事情记录下来。

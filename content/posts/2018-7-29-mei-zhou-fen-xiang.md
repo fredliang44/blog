@@ -85,8 +85,11 @@ OR **二维码下载**：
 
 ## 2. 设计
 ### 2.1 Framer 团队发布 Framer X
-<video poster="https://storage.fredliang.cn/video/Meet_Framer_X.mp4.png" disableContextMenu=true controls="controls" preload="auto" width="100%" ><source src="https://storage.fredliang.cn/video/Meet_Framer_X.mp4" type="video/mp4" />
-</video>
+
+{{< video 
+    poster="https://storage.fredliang.cn/video/Meet_Framer_X.mp4.png" 
+    src="https://storage.fredliang.cn/video/Meet_Framer_X.mp4"
+>}}
 
 >**网站：**<https://framer.com/x>
 >**博客：**[https://framer.com](https://framer.com/blog/posts/x-announcement/)

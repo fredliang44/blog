@@ -16,7 +16,6 @@ title = "Adobe CC 2017"
 链接直接复制到迅雷等下载器下载即可。
 
 
-
 【Adobe 官网下载地址】
 
 Windows 版：

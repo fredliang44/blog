@@ -1,15 +1,15 @@
-+++
-author = "Fred Liang"
-categories = ["Product Manager", "Work"]
-date = 2018-02-12T05:56:00Z
-description = "lexa 帮助人们将事情做得更快捷，更轻松，更愉快。通过将Alexa引入语音对话，用一种新的互动方式让您的客户感到满意。在设计 Alexa 技能时，为用户和 Alexa 之间的对话`dialog`创建脚本`script`。请专注于帮助用户获取他们所需，协助事物正常工作，最后可以增加有深度的操作过程和惊喜。想象一下，你想让人们使用你的技能体验以及感受什么。"
-draft = false
-image = "https://cdn.blog.fredliang.cn/photo-1512446816042-444d641267d4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=4ca058730b90e3cc158f4400389c2f8e"
-slug = "voice-design-guide-fan-yi"
-tags = ["Product Manager", "Work"]
-title = "VOICE DESIGN GUIDE 语音设计指南翻译"
+---
+author: "Fred Liang"
+categories: ["Product Manager", "Work"]
+date: 2018-02-12T05:56:00Z
+description: "lexa 帮助人们将事情做得更快捷，更轻松，更愉快。通过将Alexa引入语音对话，用一种新的互动方式让您的客户感到满意。在设计 Alexa 技能时，为用户和 Alexa 之间的对话`dialog`创建脚本`script`。请专注于帮助用户获取他们所需，协助事物正常工作，最后可以增加有深度的操作过程和惊喜。想象一下，你想让人们使用你的技能体验以及感受什么。"
+draft: false
+image: "https://cdn.blog.fredliang.cn/photo-1512446816042-444d641267d4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=4ca058730b90e3cc158f4400389c2f8e"
+slug: "voice-design-guide-fan-yi"
+tags: ["Product Manager", "Work"]
+title: "VOICE DESIGN GUIDE 语音设计指南翻译"
 
-+++
+---
 
 >原文链接 [https://developer.amazon.com/designing-for-voice/](https://developer.amazon.com/designing-for-voice/)
 
@@ -56,15 +56,11 @@ Alexa 帮助人们将事情做得更快捷，更轻松，更愉快。通过将Al
 
 在设计 Alexa 技能时，为用户和 Alexa 之间的对话`dialog`创建脚本`script`。请专注于帮助用户获取他们所需，协助事物正常工作，最后可以增加有深度的操作过程和惊喜。想象一下，你想让人们使用你的技能体验以及感受什么。
 
+{{< video poster="https://storage.fredliang.cn/video/HowtoChoose.jpg" src="https://storage.fredliang.cn/video/HowtoChoose.mp4" >}}
 
-<video poster="https://storage.fredliang.cn/video/HowtoChoose.jpg" disableContextMenu=true controls="controls" preload="auto" width="100%" ><source src="https://storage.fredliang.cn/video/HowtoChoose.mp4" type="video/mp4" />
-</video>
+{{< video poster="https://storage.fredliang.cn/video/Design.jpg" src="https://storage.fredliang.cn/video/Design%20for%20Voice%20in%203%20Steps%20-%20Amazon%20Alexa%20Voice%20Design%20Guide.mp4" >}}
 
-<video poster="https://storage.fredliang.cn/video/Design.jpg" disableContextMenu=true controls="controls" preload="auto" width="100%" ><source src="https://storage.fredliang.cn/video/Design%20for%20Voice%20in%203%20Steps%20-%20Amazon%20Alexa%20Voice%20Design%20Guide.mp4" type="video/mp4" />
-</video>
-
-<video poster="https://storage.fredliang.cn/video/HowtoUnderstand.jpg"  disableContextMenu=true controls="controls" preload="auto" width="100%" ><source src="https://storage.fredliang.cn/video/How%20to%20Understand%20Intents.mp4" type="video/mp4" />
-</video>
+{{< video poster="https://storage.fredliang.cn/video/HowtoUnderstand.jpg" src="https://storage.fredliang.cn/video/How%20to%20Understand%20Intents.mp4" >}}
 
 ## 1）链接用户和目标行为，创建故事`story`
 
@@ -104,27 +100,27 @@ Alexa 帮助人们将事情做得更快捷，更轻松，更愉快。通过将Al
 #### 脚本`script`示例
 ---
 
-角色|对话
----|---
-用户：|Alexa，打开 Paragon。
-Alexa:|欢迎来到Paragon。 你可以得到一个投资组合更新或安全报价。 你喜欢哪一个？
-用户：|投资组合有什么更新
-Alexa:|你的投资组合今天增长了0.27％。 总共$ 322。 你想要改变的细节？
-用户：|是。
-Alexa:|Crystal Cleaner 增长了0.35％，总收益为165.03美元（半秒停顿），Pizza Barn 增长了0.21％，总收益为157美元。 （半秒停顿），而 Belle’s Boats 上涨1.41％，收益为27.68美元。 （半秒暂停）你想要其他任何投资组合的细节？
-用户：|就这样吧。
-Alexa:|你今天还想要什么帮助？
-用户：|没什么，谢谢。
-Alexa:|好的，祝你有美好的一天。
+| 角色   | 对话                                                                                                                                                                                                             |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 用户： | Alexa，打开 Paragon。                                                                                                                                                                                            |
+| Alexa: | 欢迎来到Paragon。 你可以得到一个投资组合更新或安全报价。 你喜欢哪一个？                                                                                                                                          |
+| 用户： | 投资组合有什么更新                                                                                                                                                                                               |
+| Alexa: | 你的投资组合今天增长了0.27％。 总共$ 322。 你想要改变的细节？                                                                                                                                                    |
+| 用户： | 是。                                                                                                                                                                                                             |
+| Alexa: | Crystal Cleaner 增长了0.35％，总收益为165.03美元（半秒停顿），Pizza Barn 增长了0.21％，总收益为157美元。 （半秒停顿），而 Belle’s Boats 上涨1.41％，收益为27.68美元。 （半秒暂停）你想要其他任何投资组合的细节？ |
+| 用户： | 就这样吧。                                                                                                                                                                                                       |
+| Alexa: | 你今天还想要什么帮助？                                                                                                                                                                                           |
+| 用户： | 没什么，谢谢。                                                                                                                                                                                                   |
+| Alexa: | 好的，祝你有美好的一天。                                                                                                                                                                                         |
 
-角色|对话
----|---
-用户：|Alexa，问Paragon今天我的投资状况。
-Alexa:|你的投资组合今天增长了0.27％。 总共$ 322。 你想要分解你的投资吗？
-用户：|嗯。
-Alexa:|Crystal Cleaner 增长了0.35％，总收益为165.03美元（半秒停顿），Pizza Barn 增长了0.21％，总收益为157美元。 （半秒停顿），而 Belle’s Boats 上涨1.41％，收益为27.68美元。 （半秒暂停）你想要其他任何投资组合的细节？
-用户：|退出。
-Alexa:|好的，祝你有美好的一天。
+| 角色   | 对话                                                                                                                                                                                                             |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 用户： | Alexa，问Paragon今天我的投资状况。                                                                                                                                                                               |
+| Alexa: | 你的投资组合今天增长了0.27％。 总共$ 322。 你想要分解你的投资吗？                                                                                                                                                |
+| 用户： | 嗯。                                                                                                                                                                                                             |
+| Alexa: | Crystal Cleaner 增长了0.35％，总收益为165.03美元（半秒停顿），Pizza Barn 增长了0.21％，总收益为157美元。 （半秒停顿），而 Belle’s Boats 上涨1.41％，收益为27.68美元。 （半秒暂停）你想要其他任何投资组合的细节？ |
+| 用户： | 退出。                                                                                                                                                                                                           |
+| Alexa: | 好的，祝你有美好的一天。                                                                                                                                                                                         |
 
 ## 3）开发流程
 
@@ -160,8 +156,7 @@ Alexa:|好的，祝你有美好的一天。
 
 会话用户界面由一个人开始，然后由Alexa响应。 对于许多人来说，这是一种新的交互形式，所以请确保您了解用户参与对话的方式，以便您可以进行设计。
 
-<video poster="https://storage.fredliang.cn/video/HowToInteractwithAlexa.jpg"  disableContextMenu=true controls="controls" preload="auto" width="100%" ><source src="https://storage.fredliang.cn/video/HowToInteractwithAlexa.mp4" type="video/mp4" />
-</video>
+{{< video poster="https://storage.fredliang.cn/video/HowToInteractwithAlexa.jpg" src="https://storage.fredliang.cn/video/HowToInteractwithAlexa.mp4" >}}
 
 ## 1) 在构建之前完成设计
 想想你想用自己的技能来体验和感受的人。 一旦你确定了你的技能的[目的，书面的脚本，并布置流程](https://developer.amazon.com/designing-for-voice/design-process/)，继续设计意图和话语。
@@ -515,8 +510,8 @@ Echo Show 和 Echo Spot 弥补了屏幕上的细节语音体验。避免重复�
 >提高用户体验的几个关键点
 ---
 你如何判断当前的决策是正确的？
-<video poster="https://storage.fredliang.cn/video/AlexaSkillBuilderPart1.jpg" disableContextMenu=true controls="controls" preload="auto" width="100%" ><source src="https://storage.fredliang.cn/video/AlexaSkillBuilderPart1.mp4" type="video/mp4" />
-</video>
+
+{{< video poster="https://storage.fredliang.cn/video/AlexaSkillBuilderPart1.jpg" src="https://storage.fredliang.cn/video/AlexaSkillBuilderPart1.mp4" >}}
 
 # 5. Glossary
 
